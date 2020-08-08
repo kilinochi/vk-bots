@@ -9,5 +9,7 @@
     
     ```./gradlew build && java -jar build/libs/vk-bots-1.0-SNAPSHOT.jar```
 
-
+3. Проверяем
+    
+    3.1 Echo-Bot (https://vk.com/club197562646)
 
