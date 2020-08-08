@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: vk-bots
+server:
+  port: 6000
+
+ngrok:
+  url: ngrok-proxy://ngrok-proxy
+vk:
+  echoBotToken: d4ac40eb8427ba7f4198eedcd9d278f69a93832ce3408ea06153526235dff11877234e94693af96d85a0e
+  groupId : 197562646

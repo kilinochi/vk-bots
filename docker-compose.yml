@@ -1,0 +1,35 @@
+version: '3'
+networks:
+  bots-net:
+    driver: bridge
+
+volumes:
+  esdata:
+    driver: local
+
+services:
+  bots-service:
+    container_name: bots-service
+    build: .
+    depends_on:
+      - ngrok-proxy
+    networks:
+      - bots-net
+    ports:
+      - "6000:6000"
+    links:
+      - ngrok-proxy
+    restart: always
+
+  ngrok-proxy:
+    container_name: ngrok-proxy
+    image: wernight/ngrok
+    restart: always
+    ports:
+      - "4040:4040"
+    networks:
+      - bots-net
+    environment:
+      - NGROK_AUTH=1fRxYYNhvjeMn2KvWi3jYhBahUp_6TSaHHaLrVRksRd2bfThT
+      - NGROK_REGION=eu
+      - NGROK_PORT=bots-service:6000
