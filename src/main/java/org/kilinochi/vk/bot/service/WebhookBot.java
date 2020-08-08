@@ -11,7 +11,7 @@ import com.vk.api.sdk.queries.groups.GroupsAddCallbackServerQuery;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.kilinochi.vk.bot.exeption.VKBotException;
+import org.kilinochi.vk.bot.exсeption.VKBotException;
 import org.kilinochi.vk.bot.webhook.WebhookBotContainer;
 import org.kilinochi.vk.bot.webhook.WebhookBotOptions;
 import org.slf4j.Logger;

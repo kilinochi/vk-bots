@@ -1,4 +1,4 @@
-package org.kilinochi.vk.bot.exeption;
+package org.kilinochi.vk.bot.exсeption;
 
 public class WebhookException extends Exception {
     private final int errorCode;

@@ -1,7 +1,7 @@
 package org.kilinochi.vk.bot.webhook;
 
-import org.kilinochi.vk.bot.exeption.VKBotException;
-import org.kilinochi.vk.bot.exeption.WebhookException;
+import org.kilinochi.vk.bot.exсeption.VKBotException;
+import org.kilinochi.vk.bot.exсeption.WebhookException;
 import org.kilinochi.vk.bot.service.WebhookBot;
 
 import java.io.IOException;

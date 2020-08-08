@@ -1,4 +1,4 @@
-package org.kilinochi.vk.bot.exeption;
+package org.kilinochi.vk.bot.exсeption;
 
 public class VKBotException extends Exception {
     public VKBotException(Throwable cause) {

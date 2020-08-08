@@ -1,6 +1,6 @@
 package org.kilinochi.vk.bot.controller;
 
-import org.kilinochi.vk.bot.exeption.WebhookException;
+import org.kilinochi.vk.bot.exсeption.WebhookException;
 import org.kilinochi.vk.bot.service.BotRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

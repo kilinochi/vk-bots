@@ -1,8 +1,8 @@
 package org.kilinochi.vk.bot.webhook;
 
-import org.kilinochi.vk.bot.exeption.BotNotFoundException;
-import org.kilinochi.vk.bot.exeption.VKBotException;
-import org.kilinochi.vk.bot.exeption.WebhookException;
+import org.kilinochi.vk.bot.exсeption.BotNotFoundException;
+import org.kilinochi.vk.bot.exсeption.VKBotException;
+import org.kilinochi.vk.bot.exсeption.WebhookException;
 import org.kilinochi.vk.bot.service.VKBot;
 import org.kilinochi.vk.bot.service.WebhookBot;
 import org.slf4j.Logger;

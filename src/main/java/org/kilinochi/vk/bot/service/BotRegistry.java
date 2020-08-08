@@ -1,7 +1,7 @@
 package org.kilinochi.vk.bot.service;
 
 import org.kilinochi.vk.bot.controller.WebhookController;
-import org.kilinochi.vk.bot.exeption.VKBotException;
+import org.kilinochi.vk.bot.exсeption.VKBotException;
 import org.kilinochi.vk.bot.webhook.WebhookBotContainerBase;
 import org.springframework.stereotype.Component;
 import xyz.dmanchon.ngrok.client.NgrokTunnel;
