@@ -1,6 +1,6 @@
 #Webhook VK bots
 
-1. Устанавливаем на рабочей машине ngrok (https://ngrok.com/)
+1. Устанавливаем на рабочую машину ngrok (https://ngrok.com/)
 
     1.2 Поднимаем ngrok-proxy при помощи команды
     
